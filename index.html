@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RGB to Hex Converter</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./src/input.css">
 </head>
 <body>
+    <div class=" m-4 shadow-sm rounded-sm bg-white border border-1-emerald-50 w-[400px] h-[600px]">
+        <div class="heading">
+            <h1 class="text-black p-6 text-center font-bold text-3xl block"><span class="text-red-600">RGB</span> to <span class="text-green-400">HEX</span> Converter</h1>
+        </div>
+        <div class="formContainer w-96 h-40 border m-4 flex flex-col">
+            <span class="p-2 font-medium text-center mx-auto">Enter RGB Code</span>
+            <form action="#" class="flex border justify-center">
 
+            <div class="rInput  w-8 m-2 p-2">
+                <label for="r" class="text-center ml-3 font-semibold text-red-500">R</label>
+                <input type="number" class="border w-8"  />
+            </div>
 
-<script src="./app.js"></script>
+            <div class="gInput w-8 m-2 p-2">
+                <label for="r" class="text-green-500 font-semibold text-center ml-3">G</label>
+                <input type="number" class="border w-8"  />
+            </div>
+
+            <div class="bInput w-8 m-2 p-2">
+                <label for="r" class="text-blue-600 font-semibold text-center ml-3">B</label>
+                <input type="number" class="border w-8"  />
+            </div>
+
+            </form>
+        </div>
+    </div>
+<script src="./src/app.js"></script>
 </body>
 </html>
