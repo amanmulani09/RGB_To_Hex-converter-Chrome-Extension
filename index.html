@@ -20,28 +20,29 @@
 
                     <div class="rInput  w-16 m-2 p-2">
                         <label for="r" class="text-center ml-7 font-semibold text-red-500">R</label>
-                        <input type="text" class="border-b-2 border-red-600   m-2 w-[50px] p-1 focus:outline-0 active:outline-0"  />
+                        <input type="text" class="border-b-2 border-red-600   m-2 w-[50px] p-1 focus:outline-0 active:outline-0 rColor text-center"  />
                     </div>
                     
                     <div class="gInput w-16 m-2 p-2">
                         <label for="r" class="text-green-500 font-semibold text-center ml-7">G</label>
-                        <input type="text" class="border-b-2 border-green-600   m-2 w-[50px] p-1 focus:outline-0 active:outline-0"  />
+                        <input type="text" class="border-b-2 border-green-600   m-2 w-[50px] p-1 focus:outline-0 active:outline-0 gColor text-center"  />
                     </div>
                     
                     <div class="bInput w-16 m-2 p-2">
                         <label for="r" class="text-blue-600 font-semibold text-center ml-7">B</label>
-                        <input type="text" class="border-b-2 border-blue-600 m-2 w-[50px] p-1 focus:outline-0 active:outline-0"  />
+                        <input type="text" class="border-b-2 border-blue-600 m-2 w-[50px] p-1 focus:outline-0 active:outline-0 bColor text-center"  />
                     </div>
                 </div>
 
                 <div class="submitBtn flex justify-center align-middle">
-                    <button class="btn p-2 border m-2 bg-green-400 rounded w-[100px] submit"> Convert</button>
+                    <button class="btn p-2 border m-2 bg-green-400 rounded w-[100px] submit text-center"> Convert</button>
                 </div>
 
             </form>
 
-            <div class="outputContainer border">
-                
+            <div class="outputContainer mt-4 w-[80%] h-['40%'] flex justify-center align-middle">
+                <input type="text" class="ml-4 border-b-2 border-green-600 p-1 m-2  output font-bold text-lg w-[150px] focus:outline-0 active:outline-0" />
+                <button class="border p1 w-[200px] h-8 mt-5 copyToClipBoard"> 📋 Copy</button>
             </div>
         </div>
     </div>
